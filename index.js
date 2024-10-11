@@ -1,10 +1,10 @@
 const express = require('express');
 const dns = require('dns');
 const cors = require('cors');
-app.use(cors());
 
 const app = express();
 const port = 3000;
+app.use(cors());
 
 // List of known disposable email domains
 const disposableDomains = [
